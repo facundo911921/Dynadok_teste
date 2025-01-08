@@ -1,11 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 
-// interface Task {
-//   id: number;
-//   text: string;
-//   summary: string | null;
-// }
 
 interface Task {
   id: number;
@@ -15,14 +10,6 @@ interface Task {
 }
 
 const filePath = path.resolve(__dirname, 'tasks.json');
-
-// const readTasksFromFile = (): Task[] => {
-//   if (!fs.existsSync(filePath)) {
-//     return [];
-//   }
-//   const data = fs.readFileSync(filePath, 'utf-8');
-//   return JSON.parse(data);
-// };
 
 const readTasksFromFile = (): Task[] => {
   if (!fs.existsSync(filePath)) {
@@ -50,16 +37,6 @@ export class TasksRepository {
     }
   }
 
-  // createTask(text: string): Task {
-  //   const task: Task = {
-  //     id: this.currentId++,
-  //     text,
-  //     summary: null
-  //   };
-  //   this.tasks.push(task);
-  //   return task;
-  // }
-
   createTask(text: string, lang: string): Task {
     const task: Task = {
       id: this.currentId++,
@@ -70,15 +47,6 @@ export class TasksRepository {
     writeTasksToFile(this.tasks);
     return task;
   }
-
-  // updateTask(id: number, summary: string): Task | null {
-  //   const taskIndex = this.tasks.findIndex(t => t.id === id);
-  //   if (taskIndex > -1) {
-  //     this.tasks[taskIndex].summary = summary;
-  //     return this.tasks[taskIndex];
-  //   }
-  //   return null;
-  // }
 
   updateTask(id: number, summary: string): void {
     const task = this.tasks.find(task => task.id === id);
@@ -95,16 +63,6 @@ export class TasksRepository {
   getAllTasks(): Task[] {
     return this.tasks;
   }
-
-  // deleteTaskById(id: number): boolean {
-  //   const taskIndex = this.tasks.findIndex(task => task.id === id);
-  //   if (taskIndex > -1) {
-  //     this.tasks.splice(taskIndex, 1);
-  //     return true;
-  //   } else {
-  //     return false;
-  //   }
-  // }
 
   deleteTaskById(id: number): boolean {
     const index = this.tasks.findIndex(task => task.id === id);

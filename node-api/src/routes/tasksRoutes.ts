@@ -38,11 +38,6 @@ router.post("/tasks", async (req: Request, res: Response) => {
     // Atualiza a tarefa com o resumo
     tasksRepository.updateTask(task.id, summary);
 
-    // return res.status(201).json({
-    //   task: tasksRepository.getTaskById(task.id),
-    //   lang: lang
-    // });
-
     return res.status(201).json({
       id: task.id,
       text: task.text,

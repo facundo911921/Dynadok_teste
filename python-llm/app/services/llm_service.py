@@ -13,9 +13,7 @@ class LLMService:
         )
 
     def summarize_text(self, text: str, lang: str) -> str:
-        # prompt = f"traduza resumidamente para a língua {lang}: {text}. Escreva apenas na língua traduzida."
         prompt = f"traduza para a língua {lang}: {text}. Escreva apenas na língua traduzida e resuma o texto o máximo possível sem perder o sentido principal."
-
         response = self.llm.invoke(prompt)
-        # print(response, type(response))
+        
         return response

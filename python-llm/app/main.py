@@ -26,4 +26,5 @@ async def summarize(data: TextData):
     text = data.text
     lang = data.lang
     summary = llm_service.summarize_text(text, lang)
+
     return {"summary": summary}
