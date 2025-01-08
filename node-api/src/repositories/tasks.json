@@ -12,12 +12,6 @@
     "summary": " Justice and Medicine are considered high-risk fields. It is more urgent in these areas than in any other to establish systems ensuring that humans always have the final decision."
   },
   {
-    "id": 5,
-    "text": "Um 'médico centauro + um sistema de IA' melhora as decisões que os humanos tomam por conta própria e que os sistemas de IA tomam por conta própria.",
-    "lang": "es",
-    "summary": " Un 'médico centauro + un sistema de IA' mejora las decisiones que toman los humanos por sí mismos y que toman los sistemas de IA por sí mismos."
-  },
-  {
     "id": 6,
     "text": "Diagnósticos médicos e decisões jurídicas: o papel da IA/nA justiça e a Medicina são considerados campos de alto risco. Neles é mais urgente do que em qualquer outra área estabelecer sistemas para que os humanos tenham sempre a decisão final./nOs especialistas em IA trabalham para garantir a confiança dos usuários, para que o sistema seja transparente, que proteja as pessoas e que os humanos estejam no centro das decisões./nAqui entra em jogo o desafio do 'doutor centauro'. Centauros são modelos híbridos de algoritmo que combinam análise formal de máquina e intuição humana./nUm 'médico centauro + um sistema de IA' melhora as decisões que os humanos tomam por conta própria e que os sistemas de IA tomam por conta própria./nO médico sempre será quem aperta o botão final; e o juiz quem determina se uma sentença é justa.",
     "lang": "es",
@@ -58,5 +52,11 @@
     "text": "Diagnósticos médicos e decisões jurídicas: o papel da IA/nA justiça e a Medicina são considerados campos de alto risco. Neles é mais urgente do que em qualquer outra área estabelecer sistemas para que os humanos tenham sempre a decisão final./nOs especialistas em IA trabalham para garantir a confiança dos usuários, para que o sistema seja transparente, que proteja as pessoas e que os humanos estejam no centro das decisões./nAqui entra em jogo o desafio do 'doutor centauro'. Centauros são modelos híbridos de algoritmo que combinam análise formal de máquina e intuição humana./nUm 'médico centauro + um sistema de IA' melhora as decisões que os humanos tomam por conta própria e que os sistemas de IA tomam por conta própria./nO médico sempre será quem aperta o botão final; e o juiz quem determina se uma sentença é justa.",
     "lang": "en",
     "summary": " Medical diagnoses and legal decisions: the role of AI. In justice and medicine, considered high-risk fields, it's crucial to ensure humans always make the final call. AI experts aim to build trustworthy, transparent systems that protect people and keep humans at the decision-making core. The 'centaur doctor' challenge involves hybrid models combining machine analysis and human intuition, improving decisions beyond what humans or AI can do alone. Ultimately, the doctor presses the final button, and the judge decides if a verdict is just."
+  },
+  {
+    "id": 14,
+    "text": "Diagnósticos médicos e decisões jurídicas: o papel da IA/nA justiça e a Medicina são considerados campos de alto risco. Neles é mais urgente do que em qualquer outra área estabelecer sistemas para que os humanos tenham sempre a decisão final./nOs especialistas em IA trabalham para garantir a confiança dos usuários, para que o sistema seja transparente, que proteja as pessoas e que os humanos estejam no centro das decisões./nAqui entra em jogo o desafio do 'doutor centauro'. Centauros são modelos híbridos de algoritmo que combinam análise formal de máquina e intuição humana./nUm 'médico centauro + um sistema de IA' melhora as decisões que os humanos tomam por conta própria e que os sistemas de IA tomam por conta própria./nO médico sempre será quem aperta o botão final; e o juiz quem determina se uma sentença é justa.",
+    "lang": "en",
+    "summary": " Medical diagnoses and legal decisions: the role of AI. In justice and medicine, considered high-risk fields, it's crucial to ensure humans always make the final call. AI experts aim to build trustworthy, transparent systems that protect people and keep humans at the decision-making core. The 'centaur doctor' challenge involves hybrid models combining machine analysis and human intuition, improving decisions beyond what humans or AI could achieve alone. Ultimately, the doctor presses the final button, and the judge decides if a verdict is just."
   }
 ]

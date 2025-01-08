@@ -34,8 +34,8 @@ O resumo gerado é salvo com o texto original e a versao resumida e traduzido co
    ```
 4. Inicie a API Node.js e o serviço Python:
    ```bash
-   ./setup.sh start-node
-   ./setup.sh start-python
+   ./setup.sh dev-node
+   ./setup.sh dev-python
    ```
 5. A API estará disponível em `http://localhost:3005`.
 
